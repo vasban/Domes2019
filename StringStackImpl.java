@@ -24,7 +24,7 @@ public class StringStackImpl {
         return firstnode == null;
     }
 
-    public void push(final String item) {
+    public void push(String item) {
         final Node<String> temp = new Node<String>(item);
 
         if(isEmpty()) lastnode = temp;
