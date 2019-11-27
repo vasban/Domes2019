@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Debug (Launch) with Arguments Prompt",
+            "request": "launch",
+            "mainClass": "Thiseas",
+            "args": "C:/Users/bullt/Documents/Σχολή/'Δομές Δεδομένων'/Εργασία1/workspace"
+        },
+        {
+            "type": "java",
+            "name": "Run with Arguments",
+            "request": "launch",
+            "mainClass": "Thiseas",
+            "args": "C:/Users/bullt/Documents/Σχολή/'Δομές Δεδομένων'/Εργασία1/workspace/lavirinthos.txt"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
